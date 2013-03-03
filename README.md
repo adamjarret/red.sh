@@ -16,8 +16,7 @@ Run the following **on the remote machine** to install `red.sh` (you don't need 
 ## Requirements
  1. [BBEdit](http://www.barebones.com/products/bbedit/), [TextWrangler](http://www.barebones.com/products/textwrangler/) or some other App that can open sftp:// URLs installed on your Mac
 
- 1. SSH server must be enabled on both the Mac and the remote machine
-    - To enable the SSH server that came with your Mac, check *Remote Login* on the *Sharing* section of *System Preferences*
+ 1. SSH server must be enabled on both the Mac and the remote machine. To enable the SSH server that came with your Mac, check *Remote Login* on the *Sharing* section of *System Preferences*.
 
  1. If you're connecting to a machine outside your firewall, you'll need to set up appropriate port forwarding on your router to forward SSH traffic trafic to your Mac's local IP (it's a shell script, not magic).
 
